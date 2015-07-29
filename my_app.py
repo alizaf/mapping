@@ -8,9 +8,15 @@ import psycopg2
 
 app = Flask(__name__)
 
-list_to_export = send_example_json()
+## If running through SQL
+list_to_features = send_example_json()
 
-cong_113 = json.dumps(list_to_export)
+# ## If loading from .json
+# in_file = open('data/cong_113.json','r')
+# list_to_features = json.load(in_file)
+# in_file.close()
+
+cong_113 = json.dumps(list_to_features)
 
 @app.route('/')
 def map():
