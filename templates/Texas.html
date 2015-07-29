@@ -18,8 +18,8 @@
 	<div id='map'></div>
 	<script type="text/javascript">
 
-
-		L.mapbox.accessToken = 'pk.eyJ1IjoienRhd2lsIiwiYSI6ImUwMWI3YzU0NGEzMzhhMWIxY2ExYmViYTdmZjkyYTE5In0.WPudfWdQ917jhqHC1om0Ag';
+		var api_key = '{{api_key | safe}}'
+		L.mapbox.accessToken = api_key;
 		var map = L.mapbox.map('map', 'mapbox.streets')
 		    .setView([30.25, -97.75], 7);
 	

@@ -9,7 +9,7 @@ def send_example_json():
         cur = conn.cursor()
 
         map_query = """
-        				SELECT
+        		SELECT
                         DISTINCT
                         ST_asGEOJSON(wkb_geometry) geometry
                         , startcong
