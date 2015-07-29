@@ -88,7 +88,7 @@ You then intitialize a map and center it around the point of interest:
 		<div id='map'></div>
 
 		// Initialize the map to go to Texas
-		L.mapbox.accessToken = '<your API key';
+		L.mapbox.accessToken = '<your API key>';
 		var map = L.mapbox.map('map', 'mapbox.streets')
 		    .setView([30.25, -97.75], 7);
 	....
@@ -103,7 +103,7 @@ You can add a layer to your map as a layer object.  Here we are also using Jinga
 ```javascript
 	<div id='map'></div>
 	<script type="text/javascript">
-		L.mapbox.accessToken = 'pk.eyJ1IjoienRhd2lsIiwiYSI6ImUwMWI3YzU0NGEzMzhhMWIxY2ExYmViYTdmZjkyYTE5In0.WPudfWdQ917jhqHC1om0Ag';
+		L.mapbox.accessToken = <your api key>;
 		var map = L.mapbox.map('map', 'mapbox.streets')
 		    .setView([30.25, -97.75], 7);
 	
