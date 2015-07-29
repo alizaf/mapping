@@ -111,9 +111,9 @@ You can add a layer to your map as a layer object.  Here we are also using Jinga
 
 	layer = L.geoJson(geo_json_variable, {
 						    style: function(feature) {
-						    	return {fillColor: feature.properties.hexcolor, weight: line_width, fillOpacity: fillOpacity};
+						    	return {fillColor: feature.properties.hexcolor, weight: '1', fillOpacity: '.75'};
 								    				}
-						}).addTo(map);})
+						}).addTo(map);
 
 	</script>
 ```

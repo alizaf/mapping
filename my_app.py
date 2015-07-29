@@ -23,7 +23,7 @@ cong_113 = json.dumps(list_to_features)
 @app.route('/')
 def map():
     ## Have the home page be a place to input a file or paste the lat/long (address if ambitious)
-    return render_template("Texas.html", cong_113 = cong_113, api_key = )
+    return render_template("Texas.html", cong_113 = cong_113, api_key = api_key)
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=6969, debug=True)
