@@ -62,7 +62,7 @@ FROM table
 
 To use them, you will need to call them in your HTML web app template.  
 
-In the head of the HTML template, import both libraries and set the location in a style.
+In the head of the HTML template, import both libraries and set the position in a style.
 ```html
 	
 	<head>
