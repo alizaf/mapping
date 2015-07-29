@@ -58,7 +58,7 @@ FROM table
 ```
 
 ### Mapbox
-[Mapbox](http://www.mapbox.com) is a JS library built on top of [Leaflet.js](http://www.leaflet.com).  If there's ever something you want to do in a map, they should be your starting point when Googling, "How do I ....?"  
+[Mapbox](http://www.mapbox.com) is a JS library built on top of [Leaflet.js](http://www.leafletjs.com).  If there's ever something you want to do in a map, they should be your starting point when Googling, "How do I ....?"  
 
 To use them, you will need to call them in your HTML web app template.  
 
