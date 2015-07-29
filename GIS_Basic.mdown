@@ -1,0 +1,70 @@
+###GIS Terms to Know
+
+**Attribute**
+A characteristic of a map feature described by numbers or characters, typically stored in tabular format,and linked to the feature by a user-assigned identifier. For example, attributes of a well, represented by a point, might include depth, pump type, and owner.
+
+**Base map**
+Mapped data layer which seldom changes and which is used repeatedly, usually to provide a fundamental spatial reference. Example: the outline of a county's political boundary.  
+
+**Cartography**
+The art or technique of making maps or charts.
+
+**Contour**
+An imaginary line on the ground, consisting of points that are at the same elevation above or below a specified datum surface, usually mean sea level.
+
+**Feature**
+An object or aspect of the earth's surface, such as a road, vegetation, or townsite. On a map, it is termed a "map feature".
+
+**Geocoding**
+The process by which features of interest on a map, including street addresses, are assigned geographic coordinates: latitude and longitude X and Y points, or grid cells;
+
+**Latitude**
+Angular distance, in degrees, minutes, and seconds, of a point north or south of the Equator.
+
+**Longitude**
+Angular distance, in degrees, minutes, and seconds, of a point east or west of the Greenwich Meridian.
+
+**Map extent**
+The limit of the geographic area visible on a map, usually defined by a rectangle. In a dynamic map display, the map extent can be changed by zooming and panning.
+
+**Map layer**
+A logical separation of mapped data usually representing a theme or selected type(s) of feature, such as roads, political boundaries, etc.
+
+**Map**
+A graphic representation of the physical features (natural, artificial, or both) of a part or the whole of the Earth's surface, by means of signs and symbols or photographic image, at an established scale, on a specified projection, and with the means of orientation indicated.
+
+**Metadata**
+Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource. It may be used, for example, to document when a particular piece of information was collected, by whom, by what method, and under what conditions. Metadata is often called "data about data."
+
+**Pan**
+In a dynamic map, to move the viewing window up, down, or sideways to display areas in a geographic
+data set which, at the current viewing scale, lie outside the viewing window.
+
+**Projection**
+Whether you treat the earth as a sphere or a spheroid, you must transform its three-dimensional surface
+to create a flat map sheet. This mathematical transformation is commonly referred to as a map projection.
+
+**Relational Database**
+A database in which information is stored in tabular format, with related tables linked by common elements. For example, one table may link street address to parcel number, another table may list the zoning classification for each parcel. A relational database uses the parcel number as the link or "relational item" to produce a zoning classification for a street address.
+
+**Resolution**
+The accuracy with which the location and shape of map features are depicted for a given map scale.
+
+**Scale**
+Relationship existing between a distance on a map, chart, or photograph and the corresponding distance on the Earth.
+
+**Shapefile**
+A non-topological format for storing the geometric location and attribute information of geographic features.
+
+**Spatial Data**
+Information with a locational (geographic) component.
+
+**Topography**
+The shape of a surface.
+
+**Topology**
+A collection of rules that, coupled with a set of editing tools and techniques, enables a geodatabase to more accurately model geometric relationships.
+
+**Zoom**
+In a dynamic map, to change the scale of the entire display image to give the visual impression of movement of display elements towards or away from the observer.
+
