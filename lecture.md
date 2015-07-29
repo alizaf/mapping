@@ -7,7 +7,7 @@ You'll primarily work with data in **GeoJSON** or **shapefiles** (.shp).  G
 ## Easy Mapping with CartoDB
 Create a free account with [CartoDB](cartodb.com) 
 
-CartoDB is great to a quick look of your geographic data.  They have a great API and SQL interface that let's you control your map from your own web app.
+CartoDB is great way to get a quick look of your geographic data.  They have a great API and SQL interface that lets you control your map from your own web app.
 
 Create a new dataset, drop the SF_Public_Schools.zip dataset in, and create a map.  Just like that, you have a new map.  
 
@@ -27,12 +27,12 @@ brew install postgis
 #### Initializing a Database
 Whenever you want to enbale a Postgres database to have GIS capabilities, you'll have to use the following pattern:
 
-```
+```sql
 CREATE DATABASE <dbname>;
 \q
 ```
 
-```
+```sql
 psql <dbname>
 CREATE EXTENSION POSTGIS
 ```
@@ -45,7 +45,7 @@ You can insert shape files into your database from the command line using the fo
 ```
 ogr2ogr -f "PostgreSQL" PG:"dbname= <dbname> user=<your psql username>" "<path to shapefile>/<shape file>" -nlt PROMOTE_TO_MULTI -nln <table name> -append
 ```
-*Note* The table <table name> doesn't have to yet be created.  If it isn't already created, it will be created along with all the GIS dependencies.  
+*Note* The table "<table name>" doesn't have to yet be created.  If it isn't already created, it will be created along with all the GIS dependencies.  
 
 #### Creating GeoJSON
 If you want to show maps in your web app, you'll likely be using CartoDB or Mapbox.  Mapbox will need the data in GeoJSON format.  You can do this with your GIS enabled DB:
