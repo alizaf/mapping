@@ -1,7 +1,7 @@
 # Mapping
 
 ## Data  
-You'll primarily work with data in **GeoJSON** or **shapefiles** (.shp).  G
+You'll primarily work with data in **GeoJSON** or **shapefiles** (.shp).
 
 
 ## Easy Mapping with CartoDB
